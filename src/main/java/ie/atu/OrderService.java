@@ -1,12 +1,10 @@
 package ie.atu;
-
-import ie.atu.order.model.Order;
-import ie.atu.order.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 
+import java.util.List;
+@Service
 public class OrderService {
     @Autowired
     private OrderRepository orderRepository;
